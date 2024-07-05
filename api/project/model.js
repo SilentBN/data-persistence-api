@@ -1,5 +1,5 @@
 // build your `Project` model here
-const db = require("dbConfig");
+const db = require("../../data/dbConfig");
 
 module.exports = {
   async getAll() {
